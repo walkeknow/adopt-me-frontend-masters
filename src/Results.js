@@ -11,6 +11,7 @@ const Results = ({ pets }) => {
           <Pet
             animal={pet.type}
             key={pet.id}
+            id={pet.id}
             name={pet.name}
             breed={pet.breeds.primary}
             media={pet.photos}
